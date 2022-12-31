@@ -1,0 +1,9 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+
+        X509v3 extensions:
+
+    Signature Algorithm: md5WithRSAEncryption
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----

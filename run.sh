@@ -1,0 +1,1 @@
+sudo docker run -it --rm -v ${PWD}:/yo -w /yo  --cap-add=NET_ADMIN --device=/dev/net/tun --name adrianvpn --privileged --network=host  adriandema/openvpn23client openvpn --config client.ovpn --auth-user-pass pass.txt
